@@ -16,5 +16,4 @@ jobs:
       - name: Install Fleek CLI
         run: npm i -g @fleek-platform/cli
       - name: Build & deploy sites
-        run: fleek login
-        run: fleek sites deploy
+        run: fleek login && fleek sites deploy     
